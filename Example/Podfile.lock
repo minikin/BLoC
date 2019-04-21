@@ -1,0 +1,27 @@
+PODS:
+  - Bloc (0.1.0)
+  - Nimble (7.0.3)
+  - Quick (1.2.0)
+
+DEPENDENCIES:
+  - Bloc (from `../`)
+  - Nimble (~> 7.0.2)
+  - Quick (~> 1.2.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Nimble
+    - Quick
+
+EXTERNAL SOURCES:
+  Bloc:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Bloc: 9c3b39aca9517d025bc5925d50ed345707c989b0
+  Nimble: 7f5a9c447a33002645a071bddafbfb24ea70e0ac
+  Quick: 58d203b1c5e27fff7229c4c1ae445ad7069a7a08
+
+PODFILE CHECKSUM: 2e249e45adc499039ed579e1bd55ab05610ae7a5
+
+COCOAPODS: 1.6.1
