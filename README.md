@@ -1,5 +1,7 @@
 # Bloc
 
+A predictable state management library that helps implement the BLoC design pattern.
+
 [![CI Status](https://img.shields.io/travis/minikin/Bloc.svg?style=flat)](https://travis-ci.org/minikin/Bloc)
 [![Version](https://img.shields.io/cocoapods/v/Bloc.svg?style=flat)](https://cocoapods.org/pods/Bloc)
 [![License](https://img.shields.io/cocoapods/l/Bloc.svg?style=flat)](https://cocoapods.org/pods/Bloc)
