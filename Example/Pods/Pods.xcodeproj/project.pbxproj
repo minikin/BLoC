@@ -386,6 +386,7 @@
 		29FFBBF755C69CB2AE809D96BB72B31E /* SerialDispatchQueueScheduler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SerialDispatchQueueScheduler.swift; path = RxSwift/Schedulers/SerialDispatchQueueScheduler.swift; sourceTree = "<group>"; };
 		2ACDF4F5104C72BC62AE3230016861A6 /* SynchronizedDisposeType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SynchronizedDisposeType.swift; path = RxSwift/Concurrency/SynchronizedDisposeType.swift; sourceTree = "<group>"; };
 		2AE074F0D3A17F70911AA86D7D192183 /* ObservableConvertibleType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ObservableConvertibleType.swift; path = RxSwift/ObservableConvertibleType.swift; sourceTree = "<group>"; };
+		2B02F2CE226E3AD3009309F6 /* Bloc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bloc.swift; sourceTree = "<group>"; };
 		2DDF6E51BEBEFBC863507D76F3B1F6C2 /* DispatchQueue+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Extensions.swift"; path = "Platform/DispatchQueue+Extensions.swift"; sourceTree = "<group>"; };
 		3241D61E9C578977EDD97B68DD971517 /* Completable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Completable.swift; path = RxSwift/Traits/Completable.swift; sourceTree = "<group>"; };
 		32C1EAF3F6FB63E9FD32167C532B4471 /* Quick.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Quick.h; path = Sources/QuickObjectiveC/Quick.h; sourceTree = "<group>"; };
@@ -699,6 +700,7 @@
 		172E26A01A4C26AECE48094210F3EE8B /* Bloc */ = {
 			isa = PBXGroup;
 			children = (
+				2B02F2CD226E3AD3009309F6 /* Source */,
 				C563022B00DB5DF39B18ACD44D631B05 /* Pod */,
 				D947F20354E29ED3EEA03965BA32762B /* Support Files */,
 			);
@@ -806,6 +808,14 @@
 				5B27D0AF3A788DD125119099CE032FCF /* RxSwift */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		2B02F2CD226E3AD3009309F6 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				2B02F2CE226E3AD3009309F6 /* Bloc.swift */,
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 		3E2E587961799EF48343A255090590B2 /* Support Files */ = {
