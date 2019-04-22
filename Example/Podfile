@@ -1,6 +1,8 @@
+platform :ios, '11.0'
 use_frameworks!
 
 target 'Bloc_Example' do
+  pod 'RxSwift'
   pod 'Bloc', :path => '../'
 
   target 'Bloc_Tests' do

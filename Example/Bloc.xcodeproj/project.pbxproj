@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		003D84BDC7758F76BA5B522F /* Pods_Bloc_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E026398282922F454327E4D2 /* Pods_Bloc_Example.framework */; };
+		2BBA6984226E2CDC003468E7 /* Bloc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBA6983226E2CDC003468E7 /* Bloc.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -30,6 +31,7 @@
 /* Begin PBXFileReference section */
 		226085CE418D5E9499D419BA /* Pods-Bloc_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bloc_Example.release.xcconfig"; path = "Target Support Files/Pods-Bloc_Example/Pods-Bloc_Example.release.xcconfig"; sourceTree = "<group>"; };
 		2368F8FE01CF1996CE6805C6 /* Pods-Bloc_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bloc_Tests.debug.xcconfig"; path = "Target Support Files/Pods-Bloc_Tests/Pods-Bloc_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		2BBA6983226E2CDC003468E7 /* Bloc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bloc.swift; sourceTree = "<group>"; };
 		371D68666D579FC949DB973B /* Pods-Bloc_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bloc_Example.debug.xcconfig"; path = "Target Support Files/Pods-Bloc_Example/Pods-Bloc_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		4654D591CD95AAAFA016FCF5 /* Pods-Bloc_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bloc_Tests.release.xcconfig"; path = "Target Support Files/Pods-Bloc_Tests/Pods-Bloc_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		4C228163A4F04AD7AED56179 /* Bloc.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Bloc.podspec; path = ../Bloc.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -69,9 +71,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2BBA6982226E2CD0003468E7 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				2BBA6983226E2CDC003468E7 /* Bloc.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
+				2BBA6982226E2CD0003468E7 /* Source */,
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for Bloc */,
 				607FACE81AFB9204008FA782 /* Tests */,
@@ -295,13 +306,13 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Bloc_Example/Pods-Bloc_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Bloc/Bloc.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bloc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -361,6 +372,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BBA6984226E2CDC003468E7 /* Bloc.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);

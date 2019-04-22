@@ -1,27 +1,32 @@
 PODS:
-  - Bloc (0.1.0)
+  - Bloc (0.1.0):
+    - RxSwift (~> 4.0)
   - Nimble (7.0.3)
   - Quick (1.2.0)
+  - RxSwift (4.5.0)
 
 DEPENDENCIES:
   - Bloc (from `../`)
   - Nimble (~> 7.0.2)
   - Quick (~> 1.2.0)
+  - RxSwift
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Nimble
     - Quick
+    - RxSwift
 
 EXTERNAL SOURCES:
   Bloc:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Bloc: 9c3b39aca9517d025bc5925d50ed345707c989b0
+  Bloc: c5a31162d9e985e16dd3496e59becc6a0075dcef
   Nimble: 7f5a9c447a33002645a071bddafbfb24ea70e0ac
   Quick: 58d203b1c5e27fff7229c4c1ae445ad7069a7a08
+  RxSwift: f172070dfd1a93d70a9ab97a5a01166206e1c575
 
-PODFILE CHECKSUM: 2e249e45adc499039ed579e1bd55ab05610ae7a5
+PODFILE CHECKSUM: 3cb5dc46216787512232a414875a2af2d4051ea3
 
 COCOAPODS: 1.6.1

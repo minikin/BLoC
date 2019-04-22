@@ -1,8 +1,8 @@
 {
   "name": "Bloc",
   "version": "0.1.0",
-  "summary": "A short description of Bloc.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "Swift implementation of BLoC design pattern",
+  "description": "A predictable state management library that helps implement the BLoC design pattern.",
   "homepage": "https://github.com/minikin/Bloc",
   "license": {
     "type": "MIT",
@@ -15,8 +15,15 @@
     "git": "https://github.com/minikin/Bloc.git",
     "tag": "0.1.0"
   },
+  "social_media_url": "https://twitter.com/minikin",
   "platforms": {
-    "ios": "8.0"
+    "ios": "11.0"
   },
-  "source_files": "Bloc/Classes/**/*"
+  "swift_version": "5.0",
+  "source_files": "Bloc/Classes/**/*",
+  "dependencies": {
+    "RxSwift": [
+      "~> 4.0"
+    ]
+  }
 }
