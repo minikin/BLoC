@@ -1,6 +1,0 @@
-framework module Bloc {
-  umbrella header "Bloc-umbrella.h"
-
-  export *
-  module * { export * }
-}
