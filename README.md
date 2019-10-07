@@ -26,4 +26,5 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## License
 
-Bloc is available under the MIT license]. See the [LICENSE](https://github.com/minikin/bloc/blob/develop/LICENSE) file for more info.
+Bloc is available under the MIT license.
+See the [LICENSE](https://github.com/minikin/bloc/blob/develop/LICENSE) file for more info.
