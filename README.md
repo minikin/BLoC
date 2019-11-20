@@ -1,8 +1,8 @@
 # WIP: Bloc
 
-A predictable state management library that helps implement the <a href="https://youtu.be/PLHln7wHgPE" target="_blank">BLoC design pattern.</a>
-
 [![Build Status](https://app.bitrise.io/app/9959018b3579c141/status.svg?token=8dIv4a-YnmdFbSK_38_mFw)](https://app.bitrise.io/app/9959018b3579c141)
+
+A predictable state management library that helps implement the <a href="https://youtu.be/PLHln7wHgPE" target="_blank">BLoC design pattern.</a>
 
 ## Requirements
 
