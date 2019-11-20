@@ -5,7 +5,7 @@
 </h1>
 
 <p align="center">
-  A predictable state management library that helps implement the <a href="https://youtu.be/PLHln7wHgPE" target="_blank">BLoC design pattern.</a>
+  A predictable state management library that implement the <a href="https://youtu.be/PLHln7wHgPE" target="_blank">BLoC design pattern in Swift.</a>
 </p>
 
 <p align="center">
@@ -20,14 +20,21 @@
   </a>
 </p>
 
+## Contents
 
-## Requirements
+- [Requirements](#-requirements)
+- [Installation](#-installation)
+- [Example](#-example)
+- [License](#-license)
+
+
+## 📋 Requirements
 
 - iOS 13.0+ / macOS 10.14.5+
 - Xcode 11.0+
 - Swift 5.1+
 
-## Installation
+## 🎉 Installation
 
 Bloc is available through SwiftPM.
 
@@ -39,11 +46,11 @@ dependencies: [
 ]
 ```
 
-## Example
+## 📖 Example
 
 _WIP_
 
-## License
+## 📄 License
 
 Bloc is available under the MIT license.
 See the [LICENSE](https://github.com/minikin/bloc/blob/develop/LICENSE) file for more info.
