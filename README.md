@@ -2,6 +2,8 @@
 
 A predictable state management library that helps implement the <a href="https://youtu.be/PLHln7wHgPE" target="_blank">BLoC design pattern.</a>
 
+[![Build Status](https://app.bitrise.io/app/9959018b3579c141/status.svg?token=8dIv4a-YnmdFbSK_38_mFw)](https://app.bitrise.io/app/9959018b3579c141)
+
 ## Requirements
 
 - iOS 13.0+ / macOS 10.14.5+
