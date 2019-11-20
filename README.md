@@ -15,7 +15,7 @@
   <a href="https://app.bitrise.io/app/9959018b3579c141">
     <img src="https://app.bitrise.io/app/9959018b3579c141/status.svg?token=8dIv4a-YnmdFbSK_38_mFw" alt="Current Build Status." />
   </a>
-  <a href="https://facebook.github.io/react-native/docs/contributing">
+  <a href="https://github.com/minikin/bloc/blob/develop/CONTRIBUTING.md">
     <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs welcome!" />
   </a>
 </p>
