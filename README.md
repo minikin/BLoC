@@ -1,8 +1,25 @@
-# WIP: Bloc
+<h1 align="center">
+  <a href="https://github.com/minikin/bloc/">
+   WIP: Bloc
+  </a>
+</h1>
 
-[![Build Status](https://app.bitrise.io/app/9959018b3579c141/status.svg?token=8dIv4a-YnmdFbSK_38_mFw)](https://app.bitrise.io/app/9959018b3579c141)
+<p align="center">
+  A predictable state management library that helps implement the <a href="https://youtu.be/PLHln7wHgPE" target="_blank">BLoC design pattern.</a>
+</p>
 
-A predictable state management library that helps implement the <a href="https://youtu.be/PLHln7wHgPE" target="_blank">BLoC design pattern.</a>
+<p align="center">
+  <a href="https://github.com/minikin/bloc/blob/develop/LICENSE">
+    <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="Bloc is released under the MIT license." />
+  </a>
+  <a href="https://app.bitrise.io/app/9959018b3579c141">
+    <img src="https://app.bitrise.io/app/9959018b3579c141/status.svg?token=8dIv4a-YnmdFbSK_38_mFw" alt="Current Build Status." />
+  </a>
+  <a href="https://facebook.github.io/react-native/docs/contributing">
+    <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs welcome!" />
+  </a>
+</p>
+
 
 ## Requirements
 
