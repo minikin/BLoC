@@ -5,7 +5,7 @@
 </h1>
 
 <p align="center">
-  A predictable state management library that implement the <a href="https://youtu.be/PLHln7wHgPE" target="_blank">BLoC design pattern in Swift.</a>
+  A predictable state management library that implement the <a href="https://youtu.be/PLHln7wHgPE" target="_blank">BLoC design pattern in Swift for SwiftUI.</a>
 </p>
 
 <p align="center">
